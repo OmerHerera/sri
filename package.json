@@ -1,0 +1,20 @@
+{
+  "name": "sri",
+  "version": "1.0.0",
+  "description": "server playing with SRI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch --experimental-modules ./src/server.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generateFile": "node ./utils/generateFile.mjs",
+    "generateHash": "node ./utils/generateHash.js ./script.js"
+  },
+  "author": "Omer Herrera",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "sri",
+    "nodejs",
+    "node"
+  ]
+}
